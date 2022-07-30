@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: brown;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app-wrapper {
+    background-image: url("../assets/image/scene2.webp");
+}
+
+span {
+    font-size: larger;
+    background: red;
+}
+
+
+
+
