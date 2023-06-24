@@ -54,12 +54,12 @@ click me
 <hr>
 <br>
 <label class="ui pink label">
-  Enter height of Pratiti:
+  Enter height of A:
 </label>
   <input type="text" [formControl]="p_height">
   <br>
   <label class="ui blue label">
-    Enter height of Samprikta:
+    Enter height of B:
   </label>
     <input type="text" [formControl]="s_height">
     <br>
@@ -77,10 +77,10 @@ click me
       </button>
       <br>
       <span *ngIf="jtall; else condition2">
-        Pratiti is taller
+        A is taller
       </span>
       <ng-template #condition2>
-        <div class="ui red label">Samprikta is taller</div> 
+        <div class="ui red label">B is taller</div> 
       </ng-template>
     </div>
     

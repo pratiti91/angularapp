@@ -11,7 +11,7 @@ export class AppComponent {
     throw new Error('Method not implemented.');
   }
   ename="Pratiti Bhattacharjee";
-  project="Spring Boot";
+  project="Web Development";
   projectUI="Angular 8"
   display(){
     alert("Welcome to angular");
